@@ -16,3 +16,5 @@
      (assert-equal '(1 2 3) (cons 1 '(2 3)))))
 
 (run-registered-tests)
+(quit)
+
