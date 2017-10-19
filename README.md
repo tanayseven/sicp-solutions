@@ -28,6 +28,7 @@ The directory structure is as follows
 
 Steps to run the file:
 ----------------------
-```
+```bash
+sudo apt install mit-scheme # To install scheme on Linux
 make test # This will run all the .scm files from the tests/ directory
 ```
