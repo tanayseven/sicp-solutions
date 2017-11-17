@@ -1,6 +1,8 @@
 SICP Solutions
 ==============
 
+![build](https://travis-ci.org/tanayseven/sicp_solutions.svg?branch=master)
+
 This is a repository where I push all the SICP problems that I solve
 --------------------------------------------------------------------
 
