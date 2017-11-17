@@ -1,4 +1,7 @@
-install: sudo apt-get install mit-scheme
+sudo: true
+dist: trusty
+
+before_install: sudo apt-get -qq update; sudo apt-get install mit-scheme
 
 script: make test
 
