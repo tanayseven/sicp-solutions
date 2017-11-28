@@ -7,6 +7,4 @@
     (assert-= (sum-of-square-of-two-larger 2 1 3) 13))
   (define-test (if-input-is-4-6-3-output-is-52)
     (assert-= (sum-of-square-of-two-larger 4 6 3) 52)))
-
 (run-registered-tests)
-(quit)

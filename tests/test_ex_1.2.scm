@@ -6,4 +6,3 @@
   (define-test (expression-infix)
      (assert-= (expression) -37/150)))
 (run-registered-tests)
-(quit)

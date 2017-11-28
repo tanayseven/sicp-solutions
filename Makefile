@@ -5,7 +5,9 @@ TEST_FILES:=$(shell find tests/*)
 
 .PHONY: test
 test: checktools
-	echo | $(SCHEME) --load $(TEST_FILES)
+	for test_file in $(TEST_FILES) ; do\
+		$(SCHEME) < $$test_file --quiet ; \
+	done
 
 
 .PHONY: checktools
