@@ -1,0 +1,22 @@
+Free References:
+  file-attributes/uid
+      ("vc-bzr")
+      ("vc-cvs")
+      ("vc-git")
+      ("vc-svn")
+  os/newest-backup
+      ("diff")
+  unix/current-uid
+      ("vc")
+  unix/uid->string
+      ("vc-bzr")
+      ("vc-cvs")
+      ("vc-git")
+      ("vc-svn")
+
+Undefined Bindings:
+  edwin-command$browser-evaluator (edwin debugger)
+  edwin-variable$debugger-expand-reductions? (edwin debugger)
+  edwin-variable$debugger-open-markers? (edwin debugger)
+  edwin-variable$debugger-split-window? (edwin debugger)
+  edwin-variable$debugger-verbose-mode? (edwin debugger)
