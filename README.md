@@ -3,6 +3,7 @@ SICP Solutions
 
 ![build](https://travis-ci.org/tanayseven/sicp_solutions.svg?branch=master)
 ![license](https://img.shields.io/github/license/tanayseven/sicp_solutions.svg)
+![GitHub repo size in bytes](https://img.shields.io/github/repo-size/tanayseven/sicp_solutions.svg)
 
 This is a repository where I push all the SICP problems that I solve
 --------------------------------------------------------------------
