@@ -2,6 +2,7 @@ SICP Solutions
 ==============
 
 ![build](https://travis-ci.org/tanayseven/sicp_solutions.svg?branch=master)
+![license](https://img.shields.io/github/license/tanayseven/sicp_solutions.svg)
 
 This is a repository where I push all the SICP problems that I solve
 --------------------------------------------------------------------
@@ -28,8 +29,8 @@ The directory structure is as follows
 4. The second directory is called tests/ which checks correctness the solutions with a given set of solutions
 5. The Makefile has different targets that can run all the tests and check if all the programs are fine
 
-Steps to run the file:
-----------------------
+Steps to run the tests for the solution:
+----------------------------------------
 ```bash
 sudo apt install mit-scheme # To install scheme on Linux
 brew install mit-scheme # To install scheme on Mac
