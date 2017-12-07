@@ -6,4 +6,4 @@
 ;  ((if (> b 0) + -) a b))
 
 (define (a-plus-abs-b a b)
-  0)
+  ((if (> b 0) + -) a b))
