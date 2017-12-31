@@ -1,14 +1,17 @@
 export SHELL:=/bin/bash
 SCHEME:=$(or $(shell which scheme), /usr/bin/scheme)
 
-TEST_FILES:=$(shell find tests/*)
+TEST_FILES:=$(wildcard tests/*.scm)
 
 .PHONY: test
-test: checktools
-	for test_file in $(TEST_FILES) ; do\
-		sh -c "./run_test.sh $$test_file";\
-	done
+test: $(TEST_FILES)
+	$(MAKE) -j $(TEST_FILES)
 
+tests/test_ex_%.scm: FORCE
+	echo $@
+	sh -c "./run_test.sh $@"
+
+FORCE:
 
 .PHONY: checktools
 checktools: | $(SCHEME)
