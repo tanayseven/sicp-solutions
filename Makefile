@@ -5,10 +5,8 @@ TEST_FILES:=$(wildcard tests/*.scm)
 
 .PHONY: test
 test: $(TEST_FILES)
-	$(MAKE) -j $(TEST_FILES)
 
 tests/test_ex_%.scm: FORCE
-	echo $@
 	sh -c "./run_test.sh $@"
 
 FORCE:
