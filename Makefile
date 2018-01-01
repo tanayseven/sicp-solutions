@@ -7,6 +7,7 @@ TEST_FILES:=$(wildcard tests/*.scm)
 test: $(TEST_FILES)
 
 tests/test_ex_%.scm: FORCE
+	@echo ''
 	sh -c "./run_test.sh $@"
 
 FORCE:
