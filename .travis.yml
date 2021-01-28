@@ -1,7 +1,0 @@
-sudo: true
-dist: trusty
-
-before_install: sh install-scheme.sh
-
-script: make test
-

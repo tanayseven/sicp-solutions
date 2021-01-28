@@ -1,7 +1,0 @@
-Free References:
-  compile-file
-      ("swank")
-  compile-scode
-      ("swank")
-  compiler:disassemble
-      ("swank")

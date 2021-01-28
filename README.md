@@ -1,39 +1,28 @@
 SICP Solutions
 ==============
 
-![build](https://travis-ci.org/tanayseven/sicp_solutions.svg?branch=master)
-![license](https://img.shields.io/github/license/tanayseven/sicp_solutions.svg)
-![GitHub repo size in bytes](https://img.shields.io/github/repo-size/tanayseven/sicp_solutions.svg)
+![license](https://img.shields.io/github/license/tanayseven/sicp-solutions.svg)
+![GitHub repo size in bytes](https://img.shields.io/github/repo-size/tanayseven/sicp-solutions.svg)
 
 This is a repository where I push all the SICP problems that I solve
 --------------------------------------------------------------------
 
-The directory structure is as follows
-------------------------------------
-```
-.
-+--README.md
-+--LICENSE.txt
-+--src/
-| +--ex_1.31.scm
-| +--ex_2.32.scm
-| +-- ...
-+--tests/
-| +--test_ex_1.31.scm
-| +--test_ex_2.32.scm
-| +-- ...
-+--Makefile
-```
-1. The README is this currently viewed file that instructs and gives different steps in doing sertain things
-2. LICENSE file is the file that is having the license that all the programs in this repository follow which is MIT license
-3. There are two directories namely src/ which have the solutions to the problems from the SICP book
-4. The second directory is called tests/ which checks correctness the solutions with a given set of solutions
-5. The Makefile has different targets that can run all the tests and check if all the programs are fine
+The code here is implemented MIT-Scheme implementation available in Racket language. 
+Please install Racket/DrRacket to run/modify the code from this repo.
+
+File Structure
+--------------
+- File name maps to the exact exercise in the book
+- Files are divided into 3 sections in the following order
+  1. Problem statement (the problem statement directly copy-pasted from the book)
+  2. Solution (the exact implementation of the solution in MIT-Scheme)
+  3. Tests (to test the implemented solution)
 
 Steps to run the tests for the solution:
 ----------------------------------------
 ```bash
-sudo apt install mit-scheme # To install scheme on Linux
-brew install mit-scheme # To install scheme on Mac
-make test # This will run all the .scm files from the tests/ directory
+raco setup --avoid-main # To install all the necessary packages
+raco test . # To run all the tests
+raco test <file-name.scm> # To run specific tests
 ```
+
