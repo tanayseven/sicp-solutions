@@ -24,7 +24,7 @@ jobs:
     steps:
       - name: Install racket for Ubuntu
         run: |
-          sudo add-apt-repository --yes --force-yes ppa:plt/racket
+          sudo add-apt-repository --yes ppa:plt/racket
           sudo apt-get update
           sudo apt-get -y install racket
 
