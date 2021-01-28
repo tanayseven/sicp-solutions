@@ -22,8 +22,11 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: Racket Package CI
-        uses: jackfirth/racket-package-ci-action@v0.1.4
+      - name: Install racket for Ubuntu
+        run: |
+          - sudo add-apt-repository --yes --force-yes ppa:plt/racket
+          - sudo apt-get update
+          - sudo apt-get -y install racket
 
       - name: Install dependencies
         run: raco setup --avoid-main
