@@ -22,7 +22,7 @@ File Structure
 Steps to run the tests for the solution:
 ----------------------------------------
 ```bash
-raco setup --avoid-main # To install all the necessary packages
+raco pkg install # To install all the necessary packages
 raco test . # To run all the tests
 raco test <file-name.scm> # To run specific tests
 ```
