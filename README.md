@@ -1,6 +1,7 @@
 SICP Solutions
 ==============
 
+![CI](https://github.com/tanayseven/sicp-solutions/workflows/CI/badge.svg)
 ![license](https://img.shields.io/github/license/tanayseven/sicp-solutions.svg)
 ![GitHub repo size in bytes](https://img.shields.io/github/repo-size/tanayseven/sicp-solutions.svg)
 
